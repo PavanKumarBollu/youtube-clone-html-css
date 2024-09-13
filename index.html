@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/genaral.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/grid.css">
+    <title>Youtube-Clone-By-Pavan</title>
+</head>
+<body>
+    <div class="container">
+
+        <header class="nav-container dis-flex">
+            <div class="nav-left dis-flex">
+                <img src="Assests/logos/menu.png" alt="menu-icon" class="menu">
+                <img src="Assests/logos/logo.png" alt="youtube-logo-icon" class="logo">
+            </div>
+            <div class="nav-mid dis-flex">
+                <div class="search-box-container dis-flex">
+                    <input type="text" placeholder="Search" class="search-box">
+                    <img src="Assests/logos/search.png" alt="search-icon" class="search-icon">
+                </div>
+                <img src="Assests/logos/voice-search.png" alt="Voice-Search-Icon" class="voice-search">
+            </div>
+            <div class="nav-right dis-flex">
+                <img src="Assests/logos/upload.png" alt="upload-icon" class="upload">
+                <img src="Assests/logos/notification.png" alt="notification-icon" class="notification">
+                <img src="Assests/logos/BolluPavanKumar.png" alt="profile-icon" class="profile">
+            </div>
+        </header>
+
+        <header class="mini-nav-container">
+            <div class="mini-top-nav-container">
+                <div class="mini-top-nav-left-container">
+                    <img src="Assests/logos/logo.png" alt="YouTube-Logo" class="logo">
+                </div>
+                <div class="mini-top-nav-right-container">
+                    <img src="Assests/logos/search.png" alt="Search-Icon" id="mini-search-button" class="mini-search-button">
+                </div>
+            </div>
+            <div class="bottom-nav-container">
+                <div class="home-container">
+                    <img src="Assests/logos/home.png" alt="home-icon" class="home">
+                    <p class="home-text">Home</p>
+                </div>
+                <div class="shorts-container">
+                    <img src="Assests/logos/library.png" alt="shorts" class="shorts">
+                    <p class="shorts-text">Shorts</p>
+                </div>
+                <div class="subscription-container">
+                    <img src="Assests/logos/subscriprion.png" alt="subscription-icon" class="subscription">
+                    <p class="subcription-text">Subcriptions</p>
+                </div>
+                <div class="channel-container">
+                    <img src="Assests/logos/BolluPavanKumar.png" alt="channel-icon" class="channel" width="50px">
+                    <p class="channel-text">You</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="sidebar-container">
+            <div class="shortcut-links-container">
+                <a href="#">
+                    <img src="Assests/logos/home.png" alt="home-icon" class="home">
+                    <p>Home</p>
+                </a>
+                <a href="#">
+                    <img src="Assests/logos/explore.png" alt="explore-icon" class="explore">
+                    <p>Explore</p>
+                </a>
+                <a href="#">
+                    <img src="Assests/logos/subscriprion.png" alt="subcribe-icon" class="subcribe">
+                    <p>Subscribe</p>
+                </a>
+                <a href="#">
+                    <img src="Assests/logos/library.png" alt="library-icon" class="library">
+                    <p>Library</p>
+                </a>
+                <a href="#">
+                    <img src="Assests/logos/history.png" alt="history-icon" class="history">
+                    <p>History</p>
+                </a>
+                
+                <a href="#">
+                    <img src="Assests/logos/show-more.png" alt="show-more-icon" class="show-more">
+                    <p>Show More</p>
+                </a>
+            </div>
+        </div>
+
+        <div style="padding-top: 80px;"></div> <!--dummy div for the spacing perpose -->
+        
+
+
+        <main class="body-container">
+
+            <!-- video one  -->
+            <div class="video-card">
+                <div class="video-thumbnail-container">
+                    <img src="Assests/thumbnails/thumbnail-01.png" alt="thumbnail" class="video-thumbnail" width="100%">
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic-container">
+                        <img src="Assests/profile-pics/channel-1.jpeg" alt="channel-profile-pic" class="channel-profile-pic" width="100%">
+                    </div>
+                    <div class="video-stats-container">
+                        <p class="video-title" >
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video-author">
+                            Marques Brownlee
+                        </p>
+                        <p class="video-views">
+                            3.4M views · 6 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- video two -->
+
+            <div class="video-card">
+                <div class="video-thumbnail-container">
+                    <img src="Assests/thumbnails/thumbnail-02.png" alt="thumbnail" class="video-thumbnail" width="100%">
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic-container">
+                        <img src="Assests/profile-pics/channel-2.jpeg" alt="channel-profile-pic" class="channel-profile-pic" width="100%">
+                    </div>
+                    <div class="video-stats-container">
+                        <p class="video-title" >
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video-author">
+                            Marques Brownlee
+                        </p>
+                        <p class="video-views">
+                            3.4M views · 6 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- video three  -->
+
+            <div class="video-card">
+                <div class="video-thumbnail-container">
+                    <img src="Assests/thumbnails/thumbnail-03.png" alt="thumbnail" class="video-thumbnail" width="100%">
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic-container">
+                        <img src="Assests/profile-pics/channel-3.jpeg" alt="channel-profile-pic" class="channel-profile-pic" width="100%">
+                    </div>
+                    <div class="video-stats-container">
+                        <p class="video-title" >
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video-author">
+                            Marques Brownlee
+                        </p>
+                        <p class="video-views">
+                            3.4M views · 6 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- video four -->
+            <div class="video-card">
+                <div class="video-thumbnail-container">
+                    <img src="Assests/thumbnails/thumbnail-04.png" alt="thumbnail" class="video-thumbnail" width="100%">
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic-container">
+                        <img src="Assests/profile-pics/channel-4.jpeg" alt="channel-profile-pic" class="channel-profile-pic" width="100%">
+                    </div>
+                    <div class="video-stats-container">
+                        <p class="video-title" >
+                            What would happen if you didn’t drink water? - Mia Nacamulli
+                        </p>
+                        <p class="video-author">
+                            TED-Ed
+                        </p>
+                        <p class="video-views">
+                            12M views · 5 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- video-five -->
+
+            <div class="video-card">
+                <div class="video-thumbnail-container">
+                    <img src="Assests/thumbnails/thumbnail-05.png" alt="thumbnail" class="video-thumbnail" width="100%">
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic-container">
+                        <img src="Assests/profile-pics/channel-5.jpeg" alt="channel-profile-pic" class="channel-profile-pic" width="100%">
+                    </div>
+                    <div class="video-stats-container">
+                        <p class="video-title" >
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video-author">
+                            Marques Brownlee
+                        </p>
+                        <p class="video-views">
+                            3.4M views · 6 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- video six  -->
+
+            <div class="video-card">
+                <div class="video-thumbnail-container">
+                    <img src="Assests/thumbnails/thumbnail-06.png" alt="thumbnail" class="video-thumbnail" width="100%">
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic-container">
+                        <img src="Assests/profile-pics/channel-6.jpeg" alt="channel-profile-pic" class="channel-profile-pic" width="100%">
+                    </div>
+                    <div class="video-stats-container">
+                        <p class="video-title" >
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video-author">
+                            Marques Brownlee
+                        </p>
+                        <p class="video-views">
+                            3.4M views · 6 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- video seven -->
+
+            <div class="video-card">
+                <div class="video-thumbnail-container">
+                    <img src="Assests/thumbnails/thumbnail-07.png" alt="thumbnail" class="video-thumbnail" width="100%">
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic-container">
+                        <img src="Assests/profile-pics/channel-7.jpeg" alt="channel-profile-pic" class="channel-profile-pic" width="100%">
+                    </div>
+                    <div class="video-stats-container">
+                        <p class="video-title" >
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video-author">
+                            Marques Brownlee
+                        </p>
+                        <p class="video-views">
+                            3.4M views · 6 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- video eight  -->
+
+            <div class="video-card">
+                <div class="video-thumbnail-container">
+                    <img src="Assests/thumbnails/thumbnail-08.png" alt="thumbnail" class="video-thumbnail" width="100%">
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic-container">
+                        <img src="Assests/profile-pics/channel-8.jpeg" alt="channel-profile-pic" class="channel-profile-pic" width="100%">
+                    </div>
+                    <div class="video-stats-container">
+                        <p class="video-title" >
+                            Anything You Can Fit In The Circle I’ll Pay For
+                        </p>
+                        <p class="video-author">
+                            MrBeast
+                        </p>
+                        <p class="video-views">
+                            141M views · 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- video nine -->
+            <div class="video-card">
+                <div class="video-thumbnail-container">
+                    <img src="Assests/thumbnails/thumbnail-09.png" alt="thumbnail" class="video-thumbnail" width="100%">
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic-container">
+                        <img src="Assests/profile-pics/channel-9.jpeg" alt="channel-profile-pic" class="channel-profile-pic" width="100%">
+                    </div>
+                    <div class="video-stats-container">
+                        <p class="video-title" >
+                            The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                        </p>
+                        <p class="video-author">
+                            Veritasium
+                        </p>
+                        <p class="video-views">
+                            18M views · 4 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- video-ten -->
+            <div class="video-card">
+                <div class="video-thumbnail-container">
+                    <img src="Assests/thumbnails/thumbnail-10.webp" alt="thumbnail" class="video-thumbnail" width="100%">
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic-container">
+                        <img src="Assests/profile-pics/channel-10.jpeg" alt="channel-profile-pic" class="channel-profile-pic" width="100%">
+                    </div>
+                    <div class="video-stats-container">
+                        <p class="video-title" >
+                            Why Planes Don't Fly Over Tibet
+                        </p>
+                        <p class="video-author">
+                            RealLifeLore
+                        </p>
+                        <p class="video-views">
+                            6.6M views · 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- video eleven  -->
+            <div class="video-card">
+                <div class="video-thumbnail-container">
+                    <img src="Assests/thumbnails/thumbnail-11.webp" alt="thumbnail" class="video-thumbnail" width="100%">
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic-container">
+                        <img src="Assests/profile-pics/channel-11.jpeg" alt="channel-profile-pic" class="channel-profile-pic" width="100%">
+                    </div>
+                    <div class="video-stats-container">
+                        <p class="video-title" >
+                            Try Not To Laugh Challenge #9
+                        </p>
+                        <p class="video-author">
+                            Markiplier
+                        </p>
+                        <p class="video-views">
+                            19M views · 4 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- video 12  -->
+            <div class="video-card">
+                <div class="video-thumbnail-container">
+                    <img src="Assests/thumbnails/thumbnail-12.webp" alt="thumbnail" class="video-thumbnail" width="100%">
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic-container">
+                        <img src="Assests/profile-pics/channel-12.jpeg" alt="channel-profile-pic" class="channel-profile-pic" width="100%">
+                    </div>
+                    <div class="video-stats-container">
+                        <p class="video-title" >
+                            Crazy Tik Toks Taken Moments Before DISASTER
+                        </p>
+                        <p class="video-author">
+                            SSSniperWolf
+                        </p>
+                        <p class="video-views">
+                            12M views · 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </main>
+
+
+
+
+
+
+
+
+        <script src="Java_Script/sidebar.js"></script>
+    </div>
+</body>
+</html>

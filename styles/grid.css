@@ -1,0 +1,97 @@
+
+.body-container{
+    /* margin-top: 100px; */
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 30px;
+    background-color: rgb(255, 255, 255);
+    align-items: stretch;
+
+    margin-bottom: 200px;
+    /* extra css for the developing purpose  */
+    /* width: 1200px; */
+    /* background-color: lightblue; */
+    /* height: 600px; */
+}
+
+.video-card{
+    flex-grow: 1;
+    width: 290px;
+    /* flex-shrink: 1; */
+    /* flex:1; */
+    border: 4px solid transparent;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    /* max-height: 350px; */
+    /* align-items: stretch; */
+    border-radius: 4px;
+    padding-bottom: 20px;
+}
+
+.video-card .video-thumbnail-container{
+    width: 100%;
+    /* margin-bottom: 10px; */
+    
+}
+.video-card .video-thumbnail-container .video-thumbnail{
+    border-radius: 4px;
+}
+
+
+.video-card .video-info-container{
+    display: flex;
+    align-items: top;
+    padding-top: 10px;
+}
+
+
+
+.video-card .video-info-container .channel-profile-pic-container{
+    width: 45px;
+    margin-right: 10px;
+}
+.video-card .video-info-container .channel-profile-pic-container .channel-profile-pic{
+    border-radius: 25px;
+}
+
+.video-card .video-info-container .video-stats-container{
+    
+}
+.video-card .video-info-container .video-stats-container .video-title{
+    
+    font-size: 16px;
+    font-weight: 700;
+    /* line-height: 1.5; */
+}
+
+.video-card .video-info-container .video-stats-container .video-author{
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+} 
+
+.video-card .video-info-container .video-stats-container .video-views{
+    font-size: 14px;
+} 
+
+
+
+/* media queries for making the website as responsive
+ */
+
+ @media screen and (max-width:699px) {
+    .body-container{
+        margin: 0px;
+    }
+    
+ }
+
+ @media screen and (max-width:2000px) and (min-width:700px) {
+    .body-container{
+        margin-left: 80px;
+       
+    }
+ }

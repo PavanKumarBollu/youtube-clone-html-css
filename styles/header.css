@@ -1,0 +1,215 @@
+.dis-flex{
+    display: flex;
+    align-items: center;
+}
+.nav-container{
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0,0.2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+}
+.nav-container .nav-left{
+    width: 200px;
+    margin-left: 25px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    /* background-color:lightpink; */
+}
+.nav-container .nav-left .menu{
+    
+    width: 22px;
+    /* margin-right: 10px; */
+}
+.nav-container .nav-left .logo{
+    width: 140px;
+    margin-right: 1px;/*just for checking how far the element in the header */
+}
+
+
+.nav-container .nav-mid{
+    /* background-color:lightblue; */
+    padding-left: 10px;
+    flex-shrink: 1;
+    flex-grow:1;
+    max-width: 600px;
+    justify-content: center;
+}
+.nav-container .nav-mid .search-box-container
+{
+    border: 1px solid rgb(94, 94, 94);
+    border-radius: 45px;
+    justify-content: center;
+    flex: 1;
+    
+}
+.search-box-container .search-box{
+    height: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-width: 0;
+    border-radius: 45px;
+    flex: 1;
+    flex-shrink: 1;
+    min-width: 100px;
+}
+
+.search-box-container .search-box:focus{
+    outline: none;
+}
+.search-box-container .search-icon{
+    padding: 0px 10px;
+    margin-right: 10px;
+    width: 40px;
+}
+
+
+.nav-container .nav-mid .voice-search{
+    margin-left: 20px;
+    border-radius: 25px;
+    /* background-color: black; */
+    width: 22px;
+}
+
+.nav-container .nav-right{
+    margin-left: 40px;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin-right: 30px;
+    width: 150px;
+    /* background-color:lightgreen; */
+}
+.nav-container .nav-right .profile{
+    border: 2px solid rgb(18, 17, 17);
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    
+}
+.nav-container .nav-right .upload,
+.nav-container .nav-right .notification{
+    width: 25px;
+}
+
+
+
+
+
+
+/* top navigation bar css for mini screens as well as the mobiles and tablets */
+
+
+
+.mini-nav-container{
+    display: none;
+    position: relative;
+    /* background-color: white; */
+}
+.mini-nav-container .mini-top-nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid rgba(0, 0, 0,0.2);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    /* margin-bottom: 100px; */
+}
+.mini-nav-container .mini-top-nav-container .mini-top-nav-left-container{
+   
+
+}
+.mini-nav-container .mini-top-nav-container .mini-top-nav-left-container .logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.mini-nav-container .mini-top-nav-container .mini-top-nav-right-container{
+    margin-right: 25px;
+}
+.mini-nav-container .mini-top-nav-container .mini-top-nav-right-container .mini-search-button{
+
+}
+
+/* mini -top -nav- bar ends here*/
+
+/* mini bottom bar starts here */
+.bottom-nav-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0,0.3);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: white;
+    /* height: 50px; */
+}
+.bottom-nav-container .home-container, 
+.bottom-nav-container .shorts-container,
+.bottom-nav-container .subscription-container,
+.bottom-nav-container .channel-container{
+    text-align: center;
+}
+
+.bottom-nav-container .home-container .home,
+.bottom-nav-container .shorts-container .shorts,
+.bottom-nav-container .subscription-container .subscription,
+.bottom-nav-container .channel-container .channel{
+
+    width: 24px;
+
+}
+
+.bottom-nav-container .home-container{
+    margin-left: 10px;
+}
+.bottom-nav-container .channel-container{
+    margin-right: 15px;
+}
+
+.bottom-nav-container .channel-container .channel{
+    border:1px solid lightslategrey;
+    border-radius: 12px;
+}
+
+
+
+
+/* media query for the smaler phones */
+
+@media screen and (max-width:699px) {
+    .nav-container{
+        display: none;
+    }
+    .mini-nav-container {
+        display: block;
+    }
+    .sidebar-container{
+        display: none;
+    }
+}
+
+
+/* sidebar visibiliy in big screens*/
+
+@media screen  and (max-width:2000px){
+    .shortcut-links-container a p{
+        display: none;
+    }
+    
+}

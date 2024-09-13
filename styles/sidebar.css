@@ -1,0 +1,30 @@
+.sidebar-container{
+    margin-top: 90px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top:0;
+}
+.sidebar-container .shortcut-links-container{
+    /* width: 50px; */
+    /* position: fixed; */
+    padding-left: 20px;
+    /* border:  2px solid black; */
+}
+.shortcut-links-container a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+    /* position: relative; */
+}
+.shortcut-links-container a img {
+    width: 30px;
+    margin-right: 5px;
+    
+}
+.shortcut-links-container a p{
+    text-align:start;
+    /* display: none; */
+}
